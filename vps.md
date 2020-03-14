@@ -21,3 +21,15 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspe
 
 卸载:
 chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f
+
+## 宝塔安装
+
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
+
+wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh
+
+
+
+
+
+
